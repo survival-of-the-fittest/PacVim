@@ -132,7 +132,7 @@ map1.txt, and then map3.txt). <b>MAKE SURE YOU CHANGE THE NUM_OF_LEVELS
 IN GLOBALS.CPP OR ELSE YOUR NEW MAPS WON'T LOAD</b>. It should be equal
 to the highest map number.
 
-In the map text file, the walls are denoted by ampersands `#`, and the
+In the map text file, the walls are denoted by sharp signs `#`, and the
 tildes come just from the tilde key. Maps must be bounded and closed,
 so the player is trapped within 4 walls. Make sure walls block the top
 and left of the terminal (or else the player goes offscreen). Any
