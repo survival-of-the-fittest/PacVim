@@ -123,10 +123,10 @@ void winGame() {
 	writeError("YOU WIN");
 
 	if((CURRENT_LEVEL % 3) == 0) {
-		printAtBottom("YOU WIN THE GAME!\nGAIN A LIFE!");
+		printAtBottom("LEVEL UP!\nGAIN A LIFE!");
 	}
 	else {
-		printAtBottom("YOU WIN THE GAME!");
+		printAtBottom("LEVEL UP!");
 	}
 
 	refresh();
